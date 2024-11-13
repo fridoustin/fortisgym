@@ -3,10 +3,10 @@ export const Footer = () => {
         <footer className="footer footer-center bg-slate-800 text-white p-10">
             <nav className="grid grid-flow-col gap-4">
                 <a className="link link-hover" href="/">Home</a>
-                <a className="link link-hover" href="/about">About Us</a>
+                <a className="link link-hover" href="/About">About Us</a>
                 <a className="link link-hover" href="/program">Program</a>
                 <a className="link link-hover" href="/event">Event</a>
-                <a className="link link-hover" href="/membership">Membership</a>
+                <a className="link link-hover" href="/Membership">Membership</a>
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4">
