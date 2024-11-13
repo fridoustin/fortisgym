@@ -1,28 +1,4 @@
-import React from 'react';
-import Image from 'next/image';
-
-interface EventCardProps {
-  imageSrc: string;
-  title: string;
-  description: string;
-  date: string;
-}
-
-const EventCard: React.FC<EventCardProps> = ({ imageSrc, title, description, date }) => (
-  <div className="card bg-gray-800 text-white shadow-lg rounded-xl overflow-hidden transform transition-all hover:scale-105 hover:shadow-2xl">
-    <figure>
-      <Image src={imageSrc} alt={title} width={600} height={200} className="w-full h-48 object-cover" />
-    </figure>
-    <div className="card-body">
-      <div className="text-sm text-gray-400 mb-2">{date}</div>
-      <h2 className="card-title text-lg font-bold mb-2">{title}</h2>
-      <p className="mb-4">{description}</p>
-      <div className="card-actions justify-end">
-        <button className="btn btn-warning">Register Now</button>
-      </div>
-    </div>
-  </div>
-);
+import { EventCard } from '@/components/Card/eventCard';
 
 export default function Event() {
   const events = [
@@ -84,7 +60,7 @@ export default function Event() {
 
   return (
     <div className="container mx-auto px-4 py-8 pt-28">
-      {/* <h1 className="text-4xl font-bold text-center mb-8">Upcoming Events at Fortis Gym</h1> */}
+      <h1 className="text-3xl font-bold text-black text-center mb-8">Upcoming Events at Fortis Gym</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {events.map((event, index) => (
