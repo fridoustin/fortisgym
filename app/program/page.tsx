@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Program = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pb-24 pr-1 pl-1 pt-24 pb-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pr-1 pl-1 pt-24 pb-1">
             {/* Card1 */}
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
