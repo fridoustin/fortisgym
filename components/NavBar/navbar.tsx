@@ -37,7 +37,7 @@ export const Navbar = () =>{
                     </ul>
                 </div>
                 <div className="navbar-end pr-8">
-                    <a className="btn">Login</a>
+                    <a className="btn" href="/auth/signin">Login</a>
                 </div>
                 </div>
             </div>
