@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'hero-gym': "url('/images/hero-gym.jpg')",  
+      },
     },
   },
   plugins: [
