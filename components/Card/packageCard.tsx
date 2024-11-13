@@ -1,4 +1,4 @@
-import { PackageCardProps } from "./interfacePackage"
+import { PackageCardProps } from "./interfaces/interfacePackage"
 
 export const PackageCard: React.FC<PackageCardProps> = ({title, price, oldPrice, benefits}) => {
     return(
