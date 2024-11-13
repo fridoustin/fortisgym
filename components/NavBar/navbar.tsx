@@ -34,10 +34,10 @@ export const Navbar = () =>{
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
+                        <li><a href="/About">About</a></li>
                         <li><a href="/program">Program</a></li>
                         <li><a href="/event">Event</a></li>
-                        <li><a href="/membership">Membership</a></li>
+                        <li><a href="/Membership">Membership</a></li>
                         </ul>
                     </div>
                     <div className="navbar-end pr-8">
