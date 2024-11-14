@@ -30,7 +30,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -52,7 +52,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -74,7 +74,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -96,7 +96,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -118,7 +118,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -140,7 +140,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -162,7 +162,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -184,7 +184,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -205,7 +205,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -226,7 +226,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
@@ -247,7 +247,7 @@ const Program = () => {
             <div className="card bg-base-100 w-full sm:w-full lg:w-full shadow-xl">
                 <figure className="relative h-64 overflow-hidden p-4">
                     <Image
-                        src="/fb.jpg"
+                        src="/images/fb.jpg"
                         alt="fb"
                         layout="fill"
                     />
