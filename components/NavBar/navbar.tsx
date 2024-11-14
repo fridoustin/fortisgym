@@ -1,6 +1,40 @@
+"use client"
+
+import { auth } from "@/lib/firebaseConfig";
+import { onAuthStateChanged, signOut } from "firebase/auth";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export const Navbar = () =>{
+
+    const [isLoggedIn, setIsLoggedIn] = useState(false)
+    const [userName, setUserName] = useState<string | null>(null);
+
+
+    useEffect(() => {
+        const unsubscribe = onAuthStateChanged(auth, (user) => {
+            if (user) {
+                setIsLoggedIn(true);
+                setUserName(user.displayName || "User");
+            } else {
+                setIsLoggedIn(false);
+                setUserName(null);
+            }
+        });
+
+        return () => unsubscribe();
+    }, []);
+
+    const handleLogout = async () => {
+        try {
+            await signOut(auth);
+            setIsLoggedIn(false);
+            setUserName(null);
+        } catch (error) {
+            console.error("Logout failed:", error);
+        }
+    }
+
     return(
         <div className="drawer z-20">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -41,7 +75,19 @@ export const Navbar = () =>{
                         </ul>
                     </div>
                     <div className="navbar-end pr-8">
-                        <a className="btn bg-[#FFC519] text-black hover:bg-[#b39232]" href="/auth/signin">Login</a>
+                        {isLoggedIn ? (
+                            <>
+                                {/* <span className="text-white font-bold">{userName}</span> */}
+                                <button
+                                    className="btn bg-red-500 text-white hover:bg-red-700"
+                                    onClick={handleLogout}
+                                >
+                                    Logout
+                                </button>
+                            </>
+                        ) : (
+                            <a className="btn bg-[#FFC519] text-black hover:bg-[#b39232]" href="/auth/signin">Login</a>
+                        )}
                     </div>
                 </div>
             </div>
